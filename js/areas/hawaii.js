@@ -9,6 +9,6 @@ function populate(form)
 	form.options[5] = new Option("Maui County","Maui County");
 }
 
-for (var index = 0; index <= data.length; index++) {
+for (var index = 0; index <= populate.length; index++) {
       $('#county').append('<option value="' + populate[index].options + '"></option>');
    }
