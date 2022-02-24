@@ -8,3 +8,7 @@ function populate(form)
 	form.options[4] = new Option("Kauai County","Kauai County");
 	form.options[5] = new Option("Maui County","Maui County");
 }
+
+for (var index = 0; index <= data.length; index++) {
+      $('#county').append('<option value="' + populate[index].options + '"></option>');
+   }
