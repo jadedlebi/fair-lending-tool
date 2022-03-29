@@ -1,6 +1,6 @@
 function populate(form)
 {
-	let options = [];
+	var options = "TEST";
 	form.options[0] = new Option("Select a county of Hawaii","");
 	form.options[1] = new Option("Hawaii County","Hawaii County");
 	form.options[2] = new Option("City & County of Honolulu","City & County of Honolulu");
