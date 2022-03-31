@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a county of Utah","");
+form.options[0] = new Option("All counties in Utah","");
 form.options[1] = new Option("Beaver County","Beaver County");
 form.options[2] = new Option("Box Elder County","Box Elder County");
 form.options[3] = new Option("Cache County","Cache County");
