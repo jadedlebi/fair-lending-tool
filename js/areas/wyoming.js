@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a county of Wyoming","");
+form.options[0] = new Option("All counties in Wyoming","");
 form.options[1] = new Option("Albany County","Albany County");
 form.options[2] = new Option("Big Horn County","Big Horn County");
 form.options[3] = new Option("Campbell County","Campbell County");
