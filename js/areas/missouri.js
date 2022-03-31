@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a county of Missouri","");
+form.options[0] = new Option("All counties in Missouri","");
 form.options[1] = new Option("Adair County","Adair County");
 form.options[2] = new Option("Andrew County","Andrew County");
 form.options[3] = new Option("Atchison County","Atchison County");
