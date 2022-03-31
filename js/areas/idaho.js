@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a county of Idaho","");
+form.options[0] = new Option("All counties in Idaho","");
 form.options[1] = new Option("Ada County","Ada County");
 form.options[2] = new Option("Adams County","Adams County");
 form.options[3] = new Option("Bannock County","Bannock County");
