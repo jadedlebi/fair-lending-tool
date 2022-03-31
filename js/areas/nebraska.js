@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a county of Nebraska","");
+form.options[0] = new Option("All counties in Nebraska","");
 form.options[1] = new Option("Adams County","Adams County");
 form.options[2] = new Option("Antelope County","Antelope County");
 form.options[3] = new Option("Arthur County","Arthur County");
