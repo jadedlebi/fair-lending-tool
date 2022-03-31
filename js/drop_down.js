@@ -6,7 +6,7 @@ function drop_down_list() {
     } else {
 	    $('#county_drop_down').show(); // Hide the drop down
         $('#no_county_drop_down').hide(); // Hide the "no counties" message (if it's the case)
-        $.getScript("http://jadedlebi.github.io/fair-lending-tool/js/areas/"+ state.toLowerCase() + ".js", function(){
+        $.getScript("https://jadedlebi.github.io/fair-lending-tool/js/areas/"+ state.toLowerCase() + ".js", function(){
             populate(document.form.county);
 	        $('#county_drop_down').show(); // Show the drop down
         });
