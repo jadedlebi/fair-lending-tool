@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a county of Massachusetts","");
+form.options[0] = new Option("All counties in Massachusetts","");
 form.options[1] = new Option("Barnstable County","Barnstable County");
 form.options[2] = new Option("Berkshire County","Berkshire County");
 form.options[3] = new Option("Bristol County","Bristol County");
