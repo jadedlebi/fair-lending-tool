@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a county of Arizona","");
+form.options[0] = new Option("All counties in Arizona","");
 form.options[1] = new Option("Apache County","Apache County");
 form.options[2] = new Option("Cochise County","Cochise County");
 form.options[3] = new Option("Coconino County","Coconino County");
