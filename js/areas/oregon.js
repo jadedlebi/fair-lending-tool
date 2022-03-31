@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a county of Oregon","");
+form.options[0] = new Option("All counties in Oregon","");
 form.options[1] = new Option("Baker County","Baker County");
 form.options[2] = new Option("Benton County","Benton County");
 form.options[3] = new Option("Clackamas County","Clackamas County");
