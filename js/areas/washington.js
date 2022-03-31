@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a county of Washington","");
+form.options[0] = new Option("All counties in Washington","");
 form.options[1] = new Option("Adams County","Adams County");
 form.options[2] = new Option("Asotin County","Asotin County");
 form.options[3] = new Option("Benton County","Benton County");
