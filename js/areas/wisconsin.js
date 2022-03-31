@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a county of Wisconsin","");
+form.options[0] = new Option("All counties in Wisconsin","");
 form.options[1] = new Option("Adams County","Adams County");
 form.options[2] = new Option("Ashland County","Ashland County");
 form.options[3] = new Option("Barron County","Barron County");
