@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a county of New Jersey","");
+form.options[0] = new Option("All counties in New Jersey","");
 form.options[1] = new Option("Atlantic County","Atlantic County");
 form.options[2] = new Option("Bergen County","Bergen County");
 form.options[3] = new Option("Burlington County","Burlington County");
