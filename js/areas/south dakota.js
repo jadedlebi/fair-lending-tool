@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a county of South Dakota","");
+form.options[0] = new Option("All counties in South Dakota","");
 form.options[1] = new Option("Aurora County","Aurora County");
 form.options[2] = new Option("Beadle County","Beadle County");
 form.options[3] = new Option("Bennett County","Bennett County");
