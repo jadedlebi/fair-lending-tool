@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a county of North Carolina","");
+form.options[0] = new Option("All counties in North Carolina","");
 form.options[1] = new Option("Alamance County","Alamance County");
 form.options[2] = new Option("Alexander County","Alexander County");
 form.options[3] = new Option("Alleghany County","Alleghany County");
