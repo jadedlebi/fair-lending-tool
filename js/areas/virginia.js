@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a county of Virginia","");
+form.options[0] = new Option("All counties in Virginia","");
 form.options[1] = new Option("Accomack County","Accomack County");
 form.options[2] = new Option("Albemarle County","Albemarle County");
 form.options[3] = new Option("Alleghany County","Alleghany County");
