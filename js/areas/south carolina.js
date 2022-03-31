@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a county of South Carolina","");
+form.options[0] = new Option("All counties in South Carolina","");
 form.options[1] = new Option("Abbeville County","Abbeville County");
 form.options[2] = new Option("Aiken County","Aiken County");
 form.options[3] = new Option("Allendale County","Allendale County");
