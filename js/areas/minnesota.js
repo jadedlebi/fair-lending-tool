@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a county of Minnesota","");
+form.options[0] = new Option("All counties in Minnesota","");
 form.options[1] = new Option("Aitkin County","Aitkin County");
 form.options[2] = new Option("Anoka County","Anoka County");
 form.options[3] = new Option("Becker County","Becker County");
