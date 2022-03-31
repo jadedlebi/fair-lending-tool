@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a county of California","");
+form.options[0] = new Option("All counties in California","");
 form.options[1] = new Option("Alameda County","Alameda County");
 form.options[2] = new Option("Alpine County","Alpine County");
 form.options[3] = new Option("Amador County","Amador County");
