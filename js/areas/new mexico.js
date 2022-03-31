@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a county of New Mexico","");
+form.options[0] = new Option("All counties in New Mexico","");
 form.options[1] = new Option("Bernalillo County","Bernalillo County");
 form.options[2] = new Option("Catron County","Catron County");
 form.options[3] = new Option("Chaves County","Chaves County");
