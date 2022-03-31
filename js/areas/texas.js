@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a county of Texas","");
+form.options[0] = new Option("All counties in Texas","");
 form.options[1] = new Option("Anderson County","Anderson County");
 form.options[2] = new Option("Andrews County","Andrews County");
 form.options[3] = new Option("Angelina County","Angelina County");
