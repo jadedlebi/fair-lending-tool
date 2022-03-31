@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a county of New Hampshire","");
+form.options[0] = new Option("All counties in New Hampshire","");
 form.options[1] = new Option("Belknap County","Belknap County");
 form.options[2] = new Option("Carroll County","Carroll County");
 form.options[3] = new Option("Cheshire County","Cheshire County");
