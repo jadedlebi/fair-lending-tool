@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a county of Oklahoma","");
+form.options[0] = new Option("All counties in Oklahoma","");
 form.options[1] = new Option("Adair County","Adair County");
 form.options[2] = new Option("Alfalfa County","Alfalfa County");
 form.options[3] = new Option("Atoka County","Atoka County");
