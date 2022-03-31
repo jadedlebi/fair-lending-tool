@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a county of Nevada","");
+form.options[0] = new Option("All counties in Nevada","");
 form.options[1] = new Option("Carson City","Carson City");
 form.options[2] = new Option("Churchill County","Churchill County");
 form.options[3] = new Option("Clark County","Clark County");
