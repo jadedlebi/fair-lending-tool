@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a county of Connecticut","");
+form.options[0] = new Option("All counties in Connecticut","");
 form.options[1] = new Option("Fairfield County","Fairfield County");
 form.options[2] = new Option("Hartford County","Hartford County");
 form.options[3] = new Option("Litchfield County","Litchfield County");
