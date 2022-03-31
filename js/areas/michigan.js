@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a county of Michigan","");
+form.options[0] = new Option("All counties in Michigan","");
 form.options[1] = new Option("Alcona County","Alcona County");
 form.options[2] = new Option("Alger County","Alger County");
 form.options[3] = new Option("Allegan County","Allegan County");
