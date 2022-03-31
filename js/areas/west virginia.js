@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a county of West Virginia","");
+form.options[0] = new Option("All counties in West Virginia","");
 form.options[1] = new Option("Barbour County","Barbour County");
 form.options[2] = new Option("Berkeley County","Berkeley County");
 form.options[3] = new Option("Boone County","Boone County");
