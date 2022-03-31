@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a city, borough, or area of Alaska","");
+form.options[0] = new Option("All counties in Alaska","");
 form.options[1] = new Option("Aleutians East Borough","Aleutians East Borough");
 form.options[2] = new Option("Aleutians West Census Area","Aleutians West Census Area");
 form.options[3] = new Option("Anchorage Municipality","Anchorage Municipality");
