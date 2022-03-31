@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a county of Maryland","");
+form.options[0] = new Option("All counties in Maryland","");
 form.options[1] = new Option("Allegany County","Allegany County");
 form.options[2] = new Option("Anne Arundel County","Anne Arundel County");
 form.options[3] = new Option("Baltimore County","Baltimore County");
