@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a county of Arkansas","");
+form.options[0] = new Option("All counties in Arkansas","");
 form.options[1] = new Option("Arkansas County","Arkansas County");
 form.options[2] = new Option("Ashley County","Ashley County");
 form.options[3] = new Option("Baxter County","Baxter County");
