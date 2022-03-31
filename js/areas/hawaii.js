@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a county of Hawaii","");
+form.options[0] = new Option("All counties in Hawaii","");
 form.options[1] = new Option("Hawaii County","Hawaii County");
 form.options[2] = new Option("Honolulu County","Honolulu County");
 form.options[3] = new Option("Kalawao County","Kalawao County");
