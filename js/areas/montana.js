@@ -1,7 +1,7 @@
 function populate(form)
 {
 form.options.length = 0;
-form.options[0] = new Option("Select a county of Montana","");
+form.options[0] = new Option("All counties in Montana","");
 form.options[1] = new Option("Beaverhead County","Beaverhead County");
 form.options[2] = new Option("Big Horn County","Big Horn County");
 form.options[3] = new Option("Blaine County","Blaine County");
