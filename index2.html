@@ -135,9 +135,10 @@ display: none;
         <select id="county" name="geoid5" multiple="multiple”>
           <option value="">County...</option>
         </select>
-	<?php header("Content-Type: text/plain");
-		foreach ($_GET['geoid5'] as $selectedOption)
-		    echo $selectedOption."\n";
+	<?php 
+	  header("Content-Type: text/plain");
+	  foreach ($_GET['geoid5'] as $selectedOption)
+	    echo $selectedOption."\n";
 	?>
       </div>
 	    <div id="no_county_drop_down">State not selected.</div>
