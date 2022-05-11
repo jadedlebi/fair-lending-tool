@@ -21,7 +21,7 @@ display: none;
 </HEAD>
 
 <BODY>
-<form name="form" action="https://public.tableau.com/app/profile/ncrc.research/viz/FairLendingToolPDF/FLTPRINT-READY" method="post">
+<form name="form" action="https://public.tableau.com/app/profile/ncrc.research/viz/FairLendingToolPDF/FLTPRINT-READY" method="get">
 <table width="317" border="0" align="left">
    <tr>
      <td width="100">Metro Area</td>
@@ -138,7 +138,7 @@ display: none;
 	<?php 
 	header("Content-Type: text/plain");
 	?>
-	<?php foreach ($_POST["geoid5"] as $selectedOption) { ?>
+	<?php foreach ($_GET["geoid5"] as $selectedOption) { ?>
 	<?php echo $selectedOption."\n"; ?>
 	<?php }  ?>
       </div>
